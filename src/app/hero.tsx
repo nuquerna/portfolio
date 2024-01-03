@@ -12,12 +12,14 @@ function Hero() {
             variant="h1"
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
+            placeholder="test"
           >
             Welcome to my Web <br /> Development Portofolio!
           </Typography>
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
+            placeholder="test"
           >
             I&apos;m Lily Smith, a passionate web developer based in USA. Here,
             you&apos;ll get a glimpse of my journey in the world of web
@@ -27,18 +29,27 @@ function Hero() {
             <Typography
               variant="small"
               className="mb-2 text-gray-900 font-medium"
+              placeholder="test"
             >
               Your email
             </Typography>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
+              <Button
+                color="gray"
+                className="w-full px-4 md:w-[12rem]"
+                placeholder="test"
+              >
                 require offer
               </Button>
             </div>
           </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
+          <Typography
+            variant="small"
+            className="font-normal !text-gray-500"
+            placeholder="test"
+          >
             Read my{" "}
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions

@@ -11,38 +11,62 @@ export function Testimonial() {
     <section className="py-12 px-8 lg:py-24">
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography
+            variant="h2"
+            color="blue-gray"
+            className="mb-4"
+            placeholder="test"
+          >
             What Clients Say
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
+            placeholder="test"
           >
             Discover what clients have to say about their experiences working
             with me. My client&apos;s satisfaction is my greatest achievement!
           </Typography>
         </div>
-        <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
-          <CardBody className="w-full lg:gap-10 h-full lg:!flex justify-between ">
+        <Card
+          color="transparent"
+          shadow={false}
+          className="py-8 lg:flex-row"
+          placeholder="test"
+        >
+          <CardBody
+            className="w-full lg:gap-10 h-full lg:!flex justify-between"
+            placeholder="test"
+          >
             <div className="w-full mb-10 lg:mb-0">
               <Typography
                 variant="h3"
                 color="blue-gray"
                 className="mb-4 font-bold lg:max-w-xs"
+                placeholder="test"
               >
                 Mobile App Development
               </Typography>
-              <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
+              <Typography
+                className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500"
+                placeholder="test"
+              >
                 I had the pleasure of working with Lily on a critical web
                 development project, and I can confidently say that their
                 expertise and professionalism exceeded my expectations.
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-0.5">
+              <Typography
+                variant="h6"
+                color="blue-gray"
+                className="mb-0.5"
+                placeholder="test"
+              >
                 Michael - Technical Manager
               </Typography>
               <Typography
                 variant="small"
                 className="font-normal mb-5 !text-gray-500"
+                placeholder="test"
               >
                 Marketing @ APPLE INC.
               </Typography>
@@ -56,6 +80,7 @@ export function Testimonial() {
                     active === 1 ? "opacity-100" : "opacity-50"
                   }`}
                   onClick={() => setActive(1)}
+                  placeholder="test"
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
@@ -63,6 +88,7 @@ export function Testimonial() {
                   src="/image/avatar2.jpg"
                   alt="spotify"
                   size="sm"
+                  placeholder="test"
                   className={`cursor-pointer ${
                     active === 2 ? "opacity-100" : "opacity-50"
                   }`}
@@ -78,6 +104,7 @@ export function Testimonial() {
                     active === 3 ? "opacity-100" : "opacity-50"
                   }`}
                   onClick={() => setActive(3)}
+                  placeholder="test"
                 />
               </div>
             </div>
